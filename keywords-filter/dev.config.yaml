@@ -1,0 +1,8 @@
+server:
+  ip: 0.0.0.0
+  port: 50053
+  accessToken: "22sapguumyqcang1chubdev1ozhome256487dialoud"
+log:
+  # panic,fatal,error,warn,warning,info,debug,trace
+  level: "info"
+  logPath: "runtime/logs/app.log"
