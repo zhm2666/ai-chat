@@ -1,0 +1,21 @@
+server:
+  host: 0.0.0.0
+  port: 7080
+
+openai:
+  # OpenAI API Key
+  api_key: "sk-hww5ISsBbQ8Q8HyraLFwM5D30tzMEmEAAT1e3qsoR4rhDvE9"
+  # API 基础地址 (OpenAI 或兼容 API)
+  base_url: "https://api.moonshot.cn/v1"
+  # 默认模型
+  model: "kimi-k2.6"
+  # 单次请求最大 tokens 数
+  max_tokens: 4096
+  # 温度参数 (0-1)
+  temperature: 1.0
+  # Top P 参数 (0-1)
+  top_p: 0.95
+  # 存在惩罚 (0-1)
+  presence_penalty: 0
+  # 频率惩罚 (0-1)
+  frequency_penalty: 0
